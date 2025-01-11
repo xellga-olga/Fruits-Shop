@@ -4,3 +4,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .primary-btn {
+        @apply bg-primary text-white font-semibold py-3 px-6 shadow-[0px_10px_14px_-7px] rounded-xl  hover:!scale-110 duration-300;
+    }
+}
+
+@layer utilities {
+    .drop-shadow {
+        filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.2));
+    }
+}
+
