@@ -79,7 +79,7 @@ const MenuData = [
 
 const Menu = () => {
     return (
-        <section>
+        <section className='pb-20'>
             <div className='container'>
                 <motion.h1
                     initial={{opacity: 0, x: -200}}
