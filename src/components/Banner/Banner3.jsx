@@ -11,7 +11,7 @@ const bgStyle = {
 
 const Banner = () => {
     return (
-        <section className=''>
+        <section className='container mb-12'>
             <div style={bgStyle} className='container grid grid-cols-1 md:grid-cols-2 space-y-6 md:space-y-0 py-14 rounded-3xl'>
                 <div></div>
                 <div className='flex justify-center'>
@@ -39,7 +39,7 @@ const Banner = () => {
                             initial='hidden'
                             className='flex justify-center md:justify-start'>
                             <button className='primary-btn'>
-                                Learn More
+                                Order Now
                             </button>
                         </motion.div>
                     </div>

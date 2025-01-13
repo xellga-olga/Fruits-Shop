@@ -4,6 +4,7 @@ import Menu from "./components/Menu/Menu.jsx";
 import Banner from "./components/Banner/Banner.jsx";
 import Banner2 from "./components/Banner/Banner2.jsx";
 import Banner3 from "./components/Banner/Banner3.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
             <Banner />
             <Banner2 />
             <Banner3 />
+            <Footer />
         </main>
     );
 };
